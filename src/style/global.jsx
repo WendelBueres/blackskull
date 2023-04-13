@@ -47,6 +47,4 @@ const Global = createGlobalStyle`
   --body: 'Inter';
   --button: 'Inter';
   --input: 'Inter';
-
-
-
+}`;
