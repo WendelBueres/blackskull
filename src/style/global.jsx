@@ -26,25 +26,8 @@ const Global = createGlobalStyle`
 
     //Background
     --background: #F1F1F1;
+}
 
+`;
 
-
-  // typogrady
-
-  --Heading-1-700: 700;
-  --Heading-2-600: 600;
-  --Heading-3-500: 500;
-
-  --body-1-400: 400;
-  --body-2-500: 500;
-
-  --input-placeholder: 400;
-  --input-label: 500;
-  --button-big-text: 600;
-  --button-medium-text: 600;
-
-  --heading: 'Lexend';
-  --body: 'Inter';
-  --button: 'Inter';
-  --input: 'Inter';
-}`;
+export default Global;
