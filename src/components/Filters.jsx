@@ -45,6 +45,9 @@ export default function Filters() {
               sx={{
                 my: 2,
                 color: "var(--gray1)",
+                fontFamily: "Barlow, sans-serif",
+                fontWeight: "700",
+                fontSize: "14px",
                 userSelect: "none",
                 ":hover": {
                   color: "var(--gray2)",
