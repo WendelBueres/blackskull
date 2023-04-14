@@ -27,7 +27,6 @@ export default function InputSearch() {
           width: "216px",
         }}
         disabled={false}
-        variant="solid"
         value={value}
         onChange={(newValue) => {
           setValue(newValue.target.value);
