@@ -17,7 +17,12 @@ export default function InputSearch() {
       <InputBase
         placeholder="Buscar"
         sx={{
-          fontStyle: { color: "var(--white)" },
+          fontStyle: {
+            color: "var(--white)",
+            fontSize: "12px",
+            fontFamily: "Barlow, sans-serif",
+            fontWeight: "500",
+          },
           bgcolor: "var(--dark2)",
           border: click ? "1px solid var(--gray2)" : "1px solid var(--dark3)",
           borderRadius: "4px",
