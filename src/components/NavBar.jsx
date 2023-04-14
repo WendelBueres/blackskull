@@ -3,6 +3,7 @@ import { ReactComponent as Logotipo } from "../assets/logotipo.svg";
 import InputSearch from "./InputSearch";
 import Filters from "./Filters";
 import InfoBar from "./InfoBar";
+import ButtonsBar from "./ButtonsBar";
 
 export default function NavBar() {
   return (
@@ -17,13 +18,14 @@ export default function NavBar() {
           minHeight: "72px",
           justifyContent: "space-between",
           bgcolor: "var(--black1)",
-          borderBottom: "3px solid var(--dark2)",
+          borderBottom: "1.5px solid var(--dark2)",
           flexWrap: "wrap",
         }}
       >
         <Logotipo />
         <Filters />
         <InputSearch />
+        <ButtonsBar />
       </Box>
     </AppBar>
   );
