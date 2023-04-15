@@ -45,15 +45,15 @@ export default function BackToTop() {
           alignItems: "center",
           width: "126px",
           height: "40px",
-          borderColor: "var(--dark3)",
           bgcolor: "var(--orange1)",
-          borderRadius: "4px",
           left: "calc(100vw - 179px)",
           mt: "10px",
           p: "10px",
           ":hover": {
             bgcolor: "var(--orange2)",
           },
+          border: "1px solid var(--dark3))",
+          borderRadius: "6px 6px 0px 6px",
         }}
       >
         <Chat />
