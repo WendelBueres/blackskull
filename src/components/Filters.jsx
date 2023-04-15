@@ -11,12 +11,19 @@ export default function Filters() {
   ];
 
   return (
-    <Box sx={{ display: "flex", flexDirection: "row" }}>
+    <Box
+      sx={{
+        ml: "31px",
+        display: "flex",
+        flexDirection: "row",
+        maxWidth: "618px",
+      }}
+    >
       {pages.map((page) => (
         <Box
           sx={{
             transition: "linear 0.25s",
-            width: "103px",
+            width: "105px",
             height: "72px",
             overflow: "hidden",
             ":hover .line": {
