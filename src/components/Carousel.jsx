@@ -3,7 +3,7 @@ import { Box } from "@mui/system";
 import { useEffect, useState } from "react";
 import { ReactComponent as Active } from "../assets/Rectangle image select.svg";
 import { ReactComponent as Inactive } from "../assets/Rectangle image unselect.svg";
-import { IconButton, ListItem, Typography } from "@mui/material";
+import { Button, IconButton, ListItem, Typography } from "@mui/material";
 import { images } from "../source-data";
 
 export default function Carousel() {
@@ -30,6 +30,7 @@ export default function Carousel() {
 
   return (
     <Box>
+      {/* Image */}
       <Box
         component="img"
         src={images[indexImage].src}
@@ -40,6 +41,8 @@ export default function Carousel() {
           m: 0,
         }}
       />
+
+      {/* Text and button */}
       <Box
         sx={{
           position: "absolute",
@@ -61,6 +64,7 @@ export default function Carousel() {
         >
           {images[indexImage].title}
         </Typography>
+
         <Typography
           sx={{
             fontFamily: "Barlow, sans-serif",
@@ -74,7 +78,38 @@ export default function Carousel() {
         >
           {images[indexImage].text}
         </Typography>
+
+        <Button
+          disableRipple
+          variant="contained"
+          sx={{
+            mt: "32px",
+            bgcolor: "var(--orange1)",
+            p: "14px, 24px",
+            borderRadius: "4px",
+            gap: "10px",
+            width: "120px",
+            height: "48px",
+            ":hover": {
+              bgcolor: "var(--orange2)",
+            },
+          }}
+        >
+          <Typography
+            sx={{
+              fontSize: "16px",
+              fontWeight: 700,
+              fontFamily: "Barlow, sans-serif",
+              color: "var(--black1)",
+              lineHeight: "20px",
+            }}
+          >
+            CONFIRA
+          </Typography>
+        </Button>
       </Box>
+
+      {/* Selectors */}
       <ListItem
         sx={{
           mt: "-40px",
