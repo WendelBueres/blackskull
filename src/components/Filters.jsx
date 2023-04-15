@@ -46,7 +46,7 @@ export default function Filters() {
             },
           }}
         >
-          <ButtonBase sx={{ width: "100%", height: "74px" }}>
+          <ButtonBase sx={{ width: "100%", height: "74px" }} disableRipple>
             <Typography
               key={page}
               sx={{
