@@ -9,8 +9,9 @@ export default function BackToTop() {
       sx={{
         position: "sticky",
         display: "grid",
-        bottom: "calc(20vh)",
-        mt: "-16vh",
+        bottom: "calc(10vh)",
+        mt: "-10vh",
+        zIndex: 0,
       }}
     >
       <ButtonBase
