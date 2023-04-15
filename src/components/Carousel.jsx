@@ -120,6 +120,7 @@ export default function Carousel() {
           width: "calc(100%)",
           justifyContent: "center",
           alignItems: "end",
+          zIndex: 1,
         }}
       >
         {selectors.map((_, i) => {

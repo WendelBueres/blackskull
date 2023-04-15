@@ -11,6 +11,7 @@ export default function BackToTop() {
         display: "grid",
         bottom: "calc(10vh)",
         mt: "-10vh",
+        zIndex: 0,
       }}
     >
       <ButtonBase
