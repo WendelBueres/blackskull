@@ -13,8 +13,8 @@ export default function NavBar() {
         sx={{
           display: "flex",
           alignItems: "center",
-          pr: "56px",
-          pl: "56px",
+          pl: "4vw",
+          pr: "3vw",
           minHeight: "72px",
           justifyContent: "space-between",
           bgcolor: "var(--black1)",

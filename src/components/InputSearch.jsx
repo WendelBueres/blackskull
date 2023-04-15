@@ -18,17 +18,20 @@ export default function InputSearch() {
         placeholder="Buscar"
         sx={{
           fontStyle: {
+            justifyContent: "end",
             color: "var(--white)",
             fontSize: "12px",
             fontFamily: "Barlow, sans-serif",
             fontWeight: "500",
           },
-          bgcolor: "var(--dark2)",
+          ml: "16px",
+          bgcolor: "var(--dark1)",
           border: click ? "1px solid var(--gray2)" : "1px solid var(--dark3)",
           borderRadius: "4px",
           after: { ml: "15px" },
           height: "40px",
           p: "0 11px",
+          pt: "4px",
           width: "216px",
         }}
         disabled={false}
