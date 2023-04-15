@@ -71,8 +71,7 @@ export default function Carousel() {
             mt: "16px",
           }}
         >
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna
+          {images[indexImage].text}
         </Typography>
       </Box>
       <ListItem
