@@ -61,6 +61,7 @@ export default function Carousel() {
             fontSize: "56px",
             lineHeight: "65.63px",
             textTransform: "uppercase",
+            userSelect: "none",
           }}
         >
           {images[indexImage].title}
@@ -75,6 +76,7 @@ export default function Carousel() {
             color: "var(--white)",
             maxWidth: "349px",
             mt: "16px",
+            userSelect: "none",
           }}
         >
           {images[indexImage].text}
@@ -105,6 +107,7 @@ export default function Carousel() {
               lineHeight: "20px",
               letterSpacing: "0.08em",
               textTransform: "uppercase",
+              userSelect: "none",
             }}
           >
             {images[indexImage].textButton}
