@@ -9,8 +9,8 @@ export default function BackToTop() {
       sx={{
         position: "sticky",
         display: "grid",
-        bottom: "calc(20vh)",
-        mt: "-16vh",
+        bottom: "calc(10vh)",
+        mt: "-10vh",
       }}
     >
       <ButtonBase
@@ -43,17 +43,17 @@ export default function BackToTop() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          width: "126px",
+          width: "128px",
           height: "40px",
           bgcolor: "var(--orange1)",
-          left: "calc(100vw - 179px)",
+          left: "calc(100vw - 182px)",
           mt: "10px",
+          border: "1px solid var(--dark3)",
+          borderRadius: "6px 6px 0px 6px",
           p: "10px",
           ":hover": {
             bgcolor: "var(--orange2)",
           },
-          border: "1px solid var(--dark3))",
-          borderRadius: "6px 6px 0px 6px",
         }}
       >
         <Chat />
