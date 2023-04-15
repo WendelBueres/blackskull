@@ -11,7 +11,7 @@ export default function Carousel() {
   const [indexImage, setIndexImage] = useState(0);
 
   function handleSelectors() {
-    images.forEach((image, index) => {
+    images.forEach((_, index) => {
       if (index === indexImage) {
         listSelectors.push(Active);
       } else {
