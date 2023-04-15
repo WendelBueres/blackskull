@@ -5,7 +5,7 @@ import { ReactComponent as ShoppingCart } from "../assets/ShoppingCart.svg";
 
 export default function ButtonsBar() {
   return (
-    <Box sx={{ display: "flex", flexDirection: "row" }}>
+    <Box sx={{ display: "flex", flexDirection: "row", ml: "6px" }}>
       <IconButton
         key={"buttonUser"}
         sx={{ ":hover path": { stroke: "var(--white)" } }}
