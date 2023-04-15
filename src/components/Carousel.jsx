@@ -59,6 +59,7 @@ export default function Carousel() {
             fontWeight: 700,
             fontSize: "56px",
             lineHeight: "65.63px",
+            textTransform: "uppercase",
           }}
         >
           {images[indexImage].title}
@@ -87,8 +88,8 @@ export default function Carousel() {
             p: "14px, 24px",
             borderRadius: "4px",
             gap: "10px",
-            width: "120px",
-            height: "48px",
+            minWidth: "120px",
+            minHeight: "48px",
             ":hover": {
               bgcolor: "var(--orange2)",
             },
@@ -101,9 +102,11 @@ export default function Carousel() {
               fontFamily: "Barlow, sans-serif",
               color: "var(--black1)",
               lineHeight: "20px",
+              letterSpacing: "0.08em",
+              textTransform: "uppercase",
             }}
           >
-            CONFIRA
+            {images[indexImage].textButton}
           </Typography>
         </Button>
       </Box>
