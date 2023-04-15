@@ -7,18 +7,18 @@ export default function BackToTop() {
       onClick={() => window.scrollTo(0, 0)}
       disableRipple
       sx={{
-        position: "absolute",
-        display: "flex",
+        position: "sticky",
+        display: "grid",
         justifyContent: "center",
         alignItems: "center",
-        top: "calc(100vh - 260px)",
+        bottom: "calc(20vh)",
         left: "calc(100vw - 110px)",
         borderRadius: "4px",
         width: "56px",
         height: "56px",
+        mt: "-56px",
         bgcolor: "var(--dark3)",
         border: "1px solid var(--gray1)",
-        zIndex: 1,
         ":hover": {
           cursor: "pointer",
           bgcolor: "var(--orange1)",
