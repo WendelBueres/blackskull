@@ -39,6 +39,7 @@ export const images = [
         eirmod tempor invidunt ut labore et dolore magna
       </Typography>
     ),
+    textButton: "confira",
   },
   {
     src: Unplash2,
@@ -76,6 +77,7 @@ export const images = [
         eirmod tempor invidunt ut labore et dolore magna
       </Typography>
     ),
+    textButton: "confira AQUI",
   },
   {
     src: Unplash,
@@ -113,5 +115,6 @@ export const images = [
         eirmod tempor invidunt ut labore et dolore magna
       </Typography>
     ),
+    textButton: "Confira",
   },
 ];
