@@ -17,13 +17,21 @@ export default function InputSearch() {
       <InputBase
         placeholder="Buscar"
         sx={{
-          fontStyle: { color: "var(--white)" },
-          bgcolor: "var(--dark2)",
+          fontStyle: {
+            justifyContent: "end",
+            color: "var(--white)",
+            fontSize: "12px",
+            fontFamily: "Barlow, sans-serif",
+            fontWeight: "500",
+          },
+          ml: "16px",
+          bgcolor: "var(--dark1)",
           border: click ? "1px solid var(--gray2)" : "1px solid var(--dark3)",
           borderRadius: "4px",
           after: { ml: "15px" },
           height: "40px",
           p: "0 11px",
+          pt: "4px",
           width: "216px",
         }}
         disabled={false}
