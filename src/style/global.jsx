@@ -26,7 +26,31 @@ const Global = createGlobalStyle`
 
     //Background
     --background: #F1F1F1;
+    
+    //Scroll
+    scroll-behavior: smooth;
+    
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background-color: var(--dark3);
 }
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  padding: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--gray1);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: black transparent;
+}
+}
+
 
 `;
 
