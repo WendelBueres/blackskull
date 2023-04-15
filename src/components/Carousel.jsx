@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { Box } from "@mui/system";
 import { useEffect, useState } from "react";
 import { ReactComponent as Active } from "../assets/Rectangle image select.svg";
