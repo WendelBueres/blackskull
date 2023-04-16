@@ -91,6 +91,7 @@ export default function Carousel() {
             gap: "10px",
             minWidth: "120px",
             minHeight: "48px",
+            zIndex: 0,
             ":hover": {
               bgcolor: "var(--orange2)",
             },
@@ -120,7 +121,7 @@ export default function Carousel() {
           width: "calc(100%)",
           justifyContent: "center",
           alignItems: "end",
-          zIndex: 1,
+          zIndex: 0,
         }}
       >
         {selectors.map((_, i) => {
