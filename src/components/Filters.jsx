@@ -21,6 +21,7 @@ export default function Filters() {
     >
       {pages.map((page) => (
         <Box
+          key={page}
           sx={{
             transition: "linear 0.25s",
             width: "105px",
@@ -48,7 +49,6 @@ export default function Filters() {
         >
           <ButtonBase sx={{ width: "100%", height: "74px" }} disableRipple>
             <Typography
-              key={page}
               sx={{
                 my: 2,
                 color: "var(--gray1)",

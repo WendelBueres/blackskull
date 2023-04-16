@@ -7,6 +7,7 @@ export default function BackToTop() {
   return (
     <Box
       sx={{
+        width: "0px",
         position: "sticky",
         display: "grid",
         bottom: "calc(10vh)",
@@ -18,10 +19,11 @@ export default function BackToTop() {
         onClick={() => window.scrollTo(0, 0)}
         disableRipple
         sx={{
+          zIndex: 1,
           justifyContent: "center",
           alignItems: "center",
           borderRadius: "4px",
-          left: "calc(100vw - 110px)",
+          left: "calc(100vw - 6.6rem)",
           width: "56px",
           height: "56px",
           bgcolor: "var(--dark3)",
@@ -41,13 +43,14 @@ export default function BackToTop() {
       <ButtonBase
         disableRipple
         sx={{
+          zIndex: 1,
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
           width: "128px",
           height: "40px",
           bgcolor: "var(--orange1)",
-          left: "calc(100vw - 182px)",
+          left: "calc(100vw - 11.1rem)",
           mt: "10px",
           border: "1px solid var(--dark3)",
           borderRadius: "6px 6px 0px 6px",

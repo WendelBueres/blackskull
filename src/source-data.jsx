@@ -1,11 +1,12 @@
 import { Box, Typography } from "@mui/material";
 import Unplash from "./assets/unsplash.jpg";
 import Unplash2 from "./assets/unsplash2.jpg";
+import Category from "./assets/category.svg";
 
 export const images = [
   {
     src: Unplash,
-    alt: "Imagem de dois braços segurando halters",
+    alt: 'Imagem de mãos de um homem, cada uma segurando um halter, relógio de pulso na mão esquerda, na mão direita há uma tatuagem no pulso onde está escrito "FANTASY > REALITY". Há uma academia ao fundo',
     title: (
       <Typography
         sx={{
@@ -43,7 +44,7 @@ export const images = [
   },
   {
     src: Unplash2,
-    alt: "Image braço segurando halter",
+    alt: "Imagem do braço de um homem segurando um halter.",
     title: (
       <Typography
         sx={{
@@ -81,7 +82,7 @@ export const images = [
   },
   {
     src: Unplash,
-    alt: "Imagem de dois braços segurando halters",
+    alt: 'Imagem de mãos de um homem, cada uma segurando um halter, relógio de pulso na mão esquerda, na mão direita há uma tatuagem no pulso onde está escrito "FANTASY > REALITY". Há uma academia ao fundo',
     title: (
       <Typography
         sx={{
@@ -116,5 +117,48 @@ export const images = [
       </Typography>
     ),
     textButton: "Confira",
+  },
+];
+
+export const categories = [
+  {
+    title: "Proteínas",
+    image: Category,
+  },
+  {
+    title: "hipercalóricos",
+    image: Category,
+  },
+  {
+    title: "CREATINA",
+    image: Category,
+  },
+  {
+    title: "packs",
+    image: Category,
+  },
+  {
+    title: "aminoácidos",
+    image: Category,
+  },
+  {
+    title: "saúde",
+    image: Category,
+  },
+  {
+    title: "saúde",
+    image: Category,
+  },
+  {
+    title: "saúde",
+    image: Category,
+  },
+  {
+    title: "saúde",
+    image: Category,
+  },
+  {
+    title: "saúde",
+    image: Category,
   },
 ];
