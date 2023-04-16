@@ -2,6 +2,7 @@ import { Box, Typography } from "@mui/material";
 import Unplash from "./assets/unsplash.jpg";
 import Unplash2 from "./assets/unsplash2.jpg";
 import Category from "./assets/category.svg";
+import Product from "./assets/product.svg";
 
 export const images = [
   {
@@ -160,5 +161,56 @@ export const categories = [
   {
     title: "saúde",
     image: Category,
+  },
+];
+
+export const products = [
+  {
+    title: "Whey Zero (COM LACTASE) BLACK SKULL - 900G",
+    image: Product,
+    price: "R$ 349,90",
+    parcel: "ou 12x de R$ 29,16",
+  },
+  {
+    title: "Whey Zero (COM LACTASE) BLACK SKULL - 900G",
+    image: Product,
+    price: "R$ 349,90",
+    parcel: "ou 12x de R$ 29,16",
+  },
+  {
+    title: "Whey Zero (COM LACTASE) BLACK SKULL - 900G",
+    image: Product,
+    price: "R$ 349,90",
+    parcel: "ou 12x de R$ 29,16",
+  },
+  {
+    title: "Whey Zero (COM LACTASE) BLACK SKULL - 900G",
+    image: Product,
+    price: "R$ 349,90",
+    parcel: "ou 12x de R$ 29,16",
+  },
+  {
+    title: "Whey Zero (COM LACTASE) BLACK SKULL - 900G",
+    image: Product,
+    price: "R$ 349,90",
+    parcel: "ou 12x de R$ 29,16",
+  },
+  {
+    title: "Whey Zero (COM LACTASE) BLACK SKULL - 900G",
+    image: Product,
+    price: "R$ 349,90",
+    parcel: "ou 12x de R$ 29,16",
+  },
+  {
+    title: "Whey Zero (COM LACTASE) BLACK SKULL - 900G",
+    image: Product,
+    price: "R$ 349,90",
+    parcel: "ou 12x de R$ 29,16",
+  },
+  {
+    title: "Whey Zero (COM LACTASE) BLACK SKULL - 900G",
+    image: Product,
+    price: "R$ 349,90",
+    parcel: "ou 12x de R$ 29,16",
   },
 ];
