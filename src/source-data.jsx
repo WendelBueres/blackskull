@@ -213,4 +213,28 @@ export const products = [
     price: "R$ 349,90",
     parcel: "ou 12x de R$ 29,16",
   },
+  {
+    title: "Whey Zero (COM LACTASE) BLACK SKULL - 900G",
+    image: Product,
+    price: "R$ 349,90",
+    parcel: "ou 12x de R$ 29,16",
+  },
+  {
+    title: "Whey Zero (COM LACTASE) BLACK SKULL - 900G",
+    image: Product,
+    price: "R$ 349,90",
+    parcel: "ou 12x de R$ 29,16",
+  },
+  {
+    title: "Whey Zero (COM LACTASE) BLACK SKULL - 900G",
+    image: Product,
+    price: "R$ 349,90",
+    parcel: "ou 12x de R$ 29,16",
+  },
+  {
+    title: "Whey Zero (COM LACTASE) BLACK SKULL - 900G",
+    image: Product,
+    price: "R$ 349,90",
+    parcel: "ou 12x de R$ 29,16",
+  },
 ];
