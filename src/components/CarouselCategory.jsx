@@ -4,14 +4,8 @@ import { useState } from "react";
 import { ReactComponent as ArrowLeft } from "../assets/ArrowLeft.svg";
 import { ReactComponent as ArrowRight } from "../assets/ArrowRight.svg";
 import CardCategory from "./CardCategory";
+
 export default function CarouselCategory() {
-  const [value, setValue] = useState(0);
-  console.log(categories);
-
-  const handleChange = (_, newValue) => {
-    setValue(newValue);
-  };
-
   return (
     <Box sx={{ display: "flex", justifyContent: "center" }}>
       <ListItem
@@ -26,8 +20,6 @@ export default function CarouselCategory() {
         }}
       >
         <Tabs
-          onChange={handleChange}
-          value={value}
           variant="scrollable"
           scrollButtons="auto"
           indicatorColor="transparent"
@@ -55,10 +47,8 @@ export default function CarouselCategory() {
                   <ArrowLeft
                     sx={{
                       color: "var(--dark1)",
-                      position: "absolute",
                       top: "50%",
                       transform: "translateY(-50%)",
-                      zIndex: 1,
                       bgcolor: "var(--gray1)",
                       borderRadius: "4px",
                     }}
@@ -87,7 +77,6 @@ export default function CarouselCategory() {
                       color: "var(--dark1)",
                       right: "-10px",
                       transform: "translateY(-50%)",
-                      zIndex: 1,
                       bgcolor: "var(--gray1)",
                       borderRadius: "4px",
                     }}
@@ -103,7 +92,6 @@ export default function CarouselCategory() {
           }}
         >
           {categories.map((category, index) => {
-            console.log(category, index);
             return (
               <CardCategory
                 category={category}
