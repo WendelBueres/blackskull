@@ -5,16 +5,18 @@ import {
   IconButton,
   Typography,
 } from "@mui/material";
-import { products } from "../source-data";
 import { ReactComponent as Whishlist } from "../assets/Whishlist.svg";
 import { ReactComponent as ShoppingCart } from "../assets/ShoppingCart.svg";
 
 export default function CardProduct({ product, index, length }) {
-  length = 1;
-  product = products[0];
-  index = 0;
   return (
-    <Box>
+    <Box
+      sx={{
+        ".titleProduct": {
+          whiteSpace: "pre-line",
+        },
+      }}
+    >
       <Box
         sx={{
           display: "flex",
@@ -43,7 +45,6 @@ export default function CardProduct({ product, index, length }) {
         label={index}
         value={index}
         sx={{
-          mt: "56px",
           ml: index > 0 ? "10px" : "0px",
           mr: index < index.length - 1 ? "0px" : "10px",
           p: "32px 16px 28px 24px",
@@ -55,7 +56,6 @@ export default function CardProduct({ product, index, length }) {
           color: "transparent",
           borderRadius: "4px",
           border: "1px solid var(--background)",
-          zIndex: 1,
           ":hover": { color: "transparent" },
         }}
       >
@@ -70,7 +70,7 @@ export default function CardProduct({ product, index, length }) {
           <Box
             sx={{
               display: "flex",
-              width: "230px",
+              width: "239px",
               justifyContent: "center",
               alignItems: "center",
             }}
@@ -89,11 +89,12 @@ export default function CardProduct({ product, index, length }) {
 
         {/* text */}
         <Typography
+          className="titleProduct"
           sx={{
             color: "var(--black1)",
             mt: "24px",
             fontWeight: 600,
-            maxWidth: "182px",
+            width: "182px",
             lineHeight: "16px",
             fontSize: "12px",
             fontFamily: "Barlow, sans-serif",
