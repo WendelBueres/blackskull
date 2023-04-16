@@ -1,6 +1,5 @@
 import { Box, IconButton, ListItem, Tabs } from "@mui/material";
 import { categories } from "../source-data";
-import { useState } from "react";
 import { ReactComponent as ArrowLeft } from "../assets/ArrowLeft.svg";
 import { ReactComponent as ArrowRight } from "../assets/ArrowRight.svg";
 import CardCategory from "./CardCategory";
@@ -22,7 +21,6 @@ export default function CarouselCategory() {
         <Tabs
           variant="scrollable"
           scrollButtons="auto"
-          indicatorColor="transparent"
           ScrollButtonComponent={(props) => {
             const { direction, ...other } = props;
 
@@ -94,6 +92,7 @@ export default function CarouselCategory() {
           {categories.map((category, index) => {
             return (
               <CardCategory
+                key={index}
                 category={category}
                 index={index}
                 length={categories.length}
