@@ -9,6 +9,10 @@ import ImagePost3 from "./assets/imagePost 3.svg";
 import Member1 from "./assets/member1.jpg";
 import Member2 from "./assets/member2.jpg";
 import Member3 from "./assets/member3.jpg";
+import Goal1 from "./assets/Objetivo 1.svg";
+import Goal2 from "./assets/Objetivo 2.svg";
+import Goal3 from "./assets/Objetivo 3.svg";
+import Goal4 from "./assets/Objetivo 4.svg";
 
 export const images = [
   {
@@ -284,5 +288,24 @@ export const members = [
     image: Member3,
     name: "Cedric McMillan",
     link: "blog.blackskullusa.com.br",
+  },
+];
+
+export const goals = [
+  {
+    image: Goal1,
+    name: "Ganho de Massa",
+  },
+  {
+    image: Goal2,
+    name: "Energia",
+  },
+  {
+    image: Goal3,
+    name: "Recuperação Muscular",
+  },
+  {
+    image: Goal4,
+    name: "Emagrecimento",
   },
 ];
