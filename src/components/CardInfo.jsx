@@ -21,8 +21,8 @@ export default function CardInfo({
         ":hover img": {
           transition: "transform 0.5s",
           transform: rotateLeft
-            ? "rotateZ(-80deg) translateX(70px) translateY(15px)"
-            : "rotateZ(80deg) translateX(-70px) translateY(-15px)",
+            ? "translate(0, -15%) rotateZ(-160deg)"
+            : "translate(0, -15%) rotateZ(80deg) ",
         },
       }}
     >
@@ -79,8 +79,8 @@ export default function CardInfo({
           transition: "0.5s",
           width: "180px",
           ml: "8px",
+          mt: "40px",
           height: "100%",
-          mt: "50px",
         }}
       />
     </Box>
