@@ -1,13 +1,14 @@
-import { Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import BackToTop from "../components/BackToTop";
 import Carousel from "../components/Carousel";
 import CarouselCategory from "../components/CarouselCategory";
 import CarouselProduct from "../components/CarouselProducts";
 import NavBar from "../components/NavBar";
-import { products } from "../source-data";
+import { infos, products } from "../source-data";
 import SectionBlog from "../components/SectionBlog";
 import SectionTroopSkull from "../components/SectionTroopSkull";
 import ListGoal from "../components/ListGoal";
+import CardInfo from "../components/CardInfo";
 
 export default function Home() {
   return (
@@ -62,6 +63,32 @@ export default function Home() {
         OBJETIVOS
       </Typography>
       <ListGoal />
+      <Box
+        sx={{
+          width: "100%",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          mt: "64px",
+          mb: "64px",
+        }}
+      >
+        <CardInfo
+          figure={infos[0].figure}
+          link={infos[0].link}
+          text={infos[0].text}
+          textColor={infos[0].textColor}
+          textButton={infos[0].textButton}
+        />
+        <CardInfo
+          figure={infos[1].figure}
+          link={infos[1].link}
+          text={infos[1].text}
+          textColor={infos[1].textColor}
+          textButton={infos[1].textButton}
+          rotateLeft
+        />
+      </Box>
       <BackToTop />
     </>
   );
