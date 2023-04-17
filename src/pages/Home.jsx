@@ -47,6 +47,7 @@ export default function Home() {
       </Typography>
       <CarouselProduct products={products} />
       <SectionBlog />
+<<<<<<< HEAD
       <Typography
         sx={{
           fontFamily: "Roboto Condensed, sans-serif",
@@ -61,6 +62,8 @@ export default function Home() {
       >
         OBJETIVOS
       </Typography>
+=======
+>>>>>>> d7c17905123959ec90a1d7268c1876615310fed5
       <ListGoal />
       <BackToTop />
     </>
