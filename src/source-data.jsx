@@ -3,6 +3,9 @@ import Unplash from "./assets/unsplash.jpg";
 import Unplash2 from "./assets/unsplash2.jpg";
 import Category from "./assets/category.svg";
 import Product from "./assets/product.svg";
+import ImagePost1 from "./assets/imagePost 1.svg";
+import ImagePost2 from "./assets/imagePost 2.svg";
+import ImagePost3 from "./assets/imagePost 3.svg";
 
 export const images = [
   {
@@ -236,5 +239,29 @@ export const products = [
     image: Product,
     price: "R$ 349,90",
     parcel: "ou 12x de R$ 29,16",
+  },
+];
+
+export const postsBlog = [
+  {
+    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    date: "03.05.21",
+    image: ImagePost1,
+    alt: "Imagem das pernas e braços de um homem que está levantando uma barra com pesos, ao fundo há um piso emborrachado",
+    link: "https://blog.blackskullusa.com.br/",
+  },
+  {
+    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    date: "03.05.21",
+    alt: "Imagem de uma mulher de costa, ela segura uma corda com a mão esquerda enquanto olha para o lado, ao fundo há um suporte com várias barras",
+    image: ImagePost2,
+    link: "https://blog.blackskullusa.com.br/",
+  },
+  {
+    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    date: "03.05.21",
+    alt: "Imagem de um homem treinando com cordas, ao fundo há um parapeito, o parapeito é feito de cabos de aço e é possivel ver prédios ao fundo",
+    image: ImagePost3,
+    link: "https://blog.blackskullusa.com.br/",
   },
 ];
