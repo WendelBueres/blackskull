@@ -5,6 +5,7 @@ import CarouselCategory from "../components/CarouselCategory";
 import CarouselProduct from "../components/CarouselProducts";
 import NavBar from "../components/NavBar";
 import { products } from "../source-data";
+import SectionBlog from "../components/SectionBlog";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         LANÇAMENTOS
       </Typography>
       <CarouselProduct products={products} />
+      <SectionBlog />
       <BackToTop />
     </>
   );
