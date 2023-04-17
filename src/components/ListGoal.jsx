@@ -7,13 +7,20 @@ export default function ListGoal() {
     <ListItem
       sx={{
         width: "100%",
-        ml: "5px",
         display: "flex",
         justifyContent: "center",
+        pl: "-5px",
+        pr: "5px",
       }}
     >
-      {goals.map((goal) => (
-        <CardGoal goal={goal.name} image={goal.image} key={goal} />
+      {goals.map((goal, index) => (
+        <CardGoal
+          goal={goal.name}
+          image={goal.image}
+          key={goal}
+          length={goals.length}
+          index={index}
+        />
       ))}
     </ListItem>
   );
