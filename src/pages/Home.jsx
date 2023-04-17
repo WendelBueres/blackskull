@@ -9,6 +9,7 @@ import SectionBlog from "../components/SectionBlog";
 import SectionTroopSkull from "../components/SectionTroopSkull";
 import ListGoal from "../components/ListGoal";
 import CardInfo from "../components/CardInfo";
+import AboutBlackSkull from "../components/AboutBlackSkull";
 
 export default function Home() {
   return (
@@ -89,6 +90,7 @@ export default function Home() {
           rotateLeft
         />
       </Box>
+      <AboutBlackSkull />
       <BackToTop />
     </>
   );
