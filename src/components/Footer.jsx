@@ -56,7 +56,9 @@ export default function Footer() {
                 }}
               >
                 <Logo />
-                <Typography sx={{ mt: "32px", color: "var(--white)" }}>
+                <Typography
+                  sx={{ mt: "32px", color: "var(--white)", userSelect: "none" }}
+                >
                   Nos siga:
                 </Typography>
                 <Box sx={{ display: "flex", flexDirection: "row" }}>
@@ -89,6 +91,7 @@ export default function Footer() {
                     fontSize: "16px",
                     lineHeight: "19.2px",
                     fontWeight: 700,
+                    userSelect: "none",
                   }}
                 >
                   BLACKSKULL USA
@@ -196,6 +199,7 @@ export default function Footer() {
                     fontSize: "16px",
                     lineHeight: "19.2px",
                     fontWeight: 700,
+                    userSelect: "none",
                   }}
                 >
                   INSTITUCIONAL
@@ -273,6 +277,7 @@ export default function Footer() {
                     fontSize: "16px",
                     lineHeight: "19.2px",
                     fontWeight: 700,
+                    userSelect: "none",
                   }}
                 >
                   AFILIADOS
@@ -368,7 +373,14 @@ export default function Footer() {
             >
               {/* Box com Formas de Pagamento */}
               <Box sx={{ pr: "24px" }}>
-                <Typography sx={{ color: "var(--white)", mb: "24px" }}>
+                <Typography
+                  sx={{
+                    color: "var(--white)",
+                    mb: "24px",
+                    userSelect: "none",
+                    userSelect: "none",
+                  }}
+                >
                   FORMAS DE PAGAMENTO
                 </Typography>
                 <WaysPayment />
@@ -376,7 +388,13 @@ export default function Footer() {
 
               {/* Box com certificações */}
               <Box sx={{ pl: "24px" }}>
-                <Typography sx={{ color: "var(--white)", mb: "24px" }}>
+                <Typography
+                  sx={{
+                    color: "var(--white)",
+                    mb: "24px",
+                    userSelect: "none",
+                  }}
+                >
                   SEGURANÇA
                 </Typography>
                 <Box
@@ -416,6 +434,7 @@ export default function Footer() {
                 whiteSpace: "pre",
                 color: "var(--white)",
                 textAlign: "center",
+                userSelect: "none",
               }}
             >
               FIQUE POR{" "}
@@ -445,6 +464,7 @@ export default function Footer() {
                 fontWeight: 400,
                 mt: "16px",
                 mb: "32px",
+                userSelect: "none",
               }}
             >
               Inscreva-se e seja o primeiro a saber sobre as novidades,
@@ -522,6 +542,7 @@ export default function Footer() {
             fontSize: "16px",
             lineHeight: "19.2px",
             fontWeight: 400,
+            userSelect: "none",
           }}
         >
           Black Skull 2022. Todos os direitos reservados.
