@@ -172,10 +172,11 @@ export default function CarouselProduct({ products }) {
       {/* Selectors */}
       <ListItem
         sx={{
-          mt: "57px",
+          mt: "71px",
           display: "flex",
           justifyContent: "center",
           alignItems: "end",
+          mb: "64px",
         }}
       >
         {selectors.map((_, i) => {
