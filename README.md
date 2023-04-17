@@ -7,12 +7,12 @@ Abaixo você encontrará instruções de como instalar as bibliotecas necessári
 
 ### Instalando dependências:
 - Abra o terminal na pasta raiz do projeto.
-- Instale os dependências do projeto por meio do comando: ```yarn install```.
+- Instale as dependências do projeto por meio do comando: ```yarn install```.
 
 ### Executando o projeto:
 - Inicie o servidor React por meio do comando: ```yarn start``` 
 
-### Build do projeto:
+### Gulp:
 - O Gulp pode ser executado por meio do comando: ```yarn gulp``` 
 
 ### Build do projeto:
