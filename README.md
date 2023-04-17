@@ -3,7 +3,7 @@
 ## Tecnologias usadas:
 Esse projeto foi programado em JavaScript por meio do framework ReactJS, para melhor desempenho foi utilizado o gulp para diminuir o número de requisições entre cliente-servidor, para estilização foi utilizada a biblioteca Material-UI (MUI).
 
-Abaixo você irá encontrará instruções de como instalar as bibliotecas necessárias para esse projeto e e como executá-lo.
+Abaixo você encontrará instruções de como instalar as bibliotecas necessárias para esse projeto e e como executá-lo.
 
 ### Instalando dependências:
 - Abra o terminal na pasta raiz do projeto.
