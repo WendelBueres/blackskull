@@ -58,12 +58,13 @@ export default function CardInfo({
           sx={{
             m: 0,
             mt: "24px",
-            p: "14px 24px",
+            p: "10px 24px",
             borderRadius: "4px",
             gap: "10px",
             bgcolor: "var(--orange1)",
             color: "var(--black1)",
             fontFamily: "Barlow, sans-serif",
+            fontWeight: 700,
             ":hover": { bgcolor: "var(--orange2)" },
           }}
           onClick={() => window.open(link)}
