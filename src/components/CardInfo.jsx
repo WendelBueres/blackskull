@@ -26,7 +26,15 @@ export default function CardInfo({
         },
       }}
     >
-      <Box sx={{ width: "227px", pr: "4px", height: "100%", mt: "40px" }}>
+      <Box
+        sx={{
+          width: "227px",
+          mr: "4px",
+          height: "100%",
+          mt: "40px",
+          userSelect: "none",
+        }}
+      >
         <Typography
           sx={{
             color: "var(--white)",
