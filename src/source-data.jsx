@@ -13,6 +13,8 @@ import Goal1 from "./assets/Objetivo 1.svg";
 import Goal2 from "./assets/Objetivo 2.svg";
 import Goal3 from "./assets/Objetivo 3.svg";
 import Goal4 from "./assets/Objetivo 4.svg";
+import Package from "./assets/Package.svg";
+import Money from "./assets/CurrencyCircleDollar.svg";
 
 export const images = [
   {
@@ -307,5 +309,22 @@ export const goals = [
   {
     image: Goal4,
     name: "Emagrecimento",
+  },
+];
+
+export const infos = [
+  {
+    text: "GARANTA O",
+    textColor: "FRETE GRÁTIS",
+    textButton: "consulte",
+    figure: Package,
+    link: "#",
+  },
+  {
+    text: "SEU DINHEIRO",
+    textColor: "DE VOLTA",
+    textButton: "entenda",
+    figure: Money,
+    link: "#",
   },
 ];
