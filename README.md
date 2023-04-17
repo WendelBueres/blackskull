@@ -1,7 +1,7 @@
 # BlackSkull
 
 ## Tecnologias usadas:
-Esse projeto teve seu Front-End programado em JavaScript por meio do framework ReactJS, para melhor desempenho utiliza o gulp para diminuir o numero de requisições no servidor, para a estilização foi utilizada a biblioteca Material-UI (MUI).
+Esse projeto foi programado em JavaScript por meio do framework ReactJS, para melhor desempenho foi utilizado o gulp para diminuir o número de requisições entre cliente-servidor, para estilização foi utilizada a biblioteca Material-UI (MUI).
 
 Abaixo você irá encontrar instruções de como instalar as bibliotecas necessárias para executar esse projeto e de como executá-lo.
 
