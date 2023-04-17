@@ -22,6 +22,9 @@ export default function CardPost({
         img: {
           transition: "transform 0.5s ease",
         },
+        ".iconArrow": {
+          transition: "transform 0.5s ease",
+        },
         ":hover img": {
           transform: "scale(1.3)",
           transition: "transform 0.5s ease",
