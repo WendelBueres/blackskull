@@ -50,6 +50,7 @@ export default function AboutBlackSkull() {
               fontWeight: 400,
               fontFamily: "Barlow, sans-serif",
               color: "var(--dark3)",
+              userSelect: "none",
             }}
           >
             A Black Skull USA é uma marca de suplementos alimentares com foco em
