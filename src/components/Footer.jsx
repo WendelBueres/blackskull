@@ -9,15 +9,7 @@ import { ReactComponent as VtexLogo } from "../assets/vtex white.svg";
 import { ReactComponent as WaysPayment } from "../assets/Payment.svg";
 import { ReactComponent as Vtex } from "../assets/vtex.svg";
 import { ReactComponent as EBit } from "../assets/ebit.svg";
-import {
-  Box,
-  Button,
-  Divider,
-  IconButton,
-  InputBase,
-  Link,
-  Typography,
-} from "@mui/material";
+import { Box, Button, IconButton, InputBase, Typography } from "@mui/material";
 
 export default function Footer() {
   return (
