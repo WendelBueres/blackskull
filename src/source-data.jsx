@@ -6,6 +6,9 @@ import Product from "./assets/product.svg";
 import ImagePost1 from "./assets/imagePost 1.svg";
 import ImagePost2 from "./assets/imagePost 2.svg";
 import ImagePost3 from "./assets/imagePost 3.svg";
+import Member1 from "./assets/member1.jpg";
+import Member2 from "./assets/member2.jpg";
+import Member3 from "./assets/member3.jpg";
 
 export const images = [
   {
@@ -263,5 +266,23 @@ export const postsBlog = [
     alt: "Imagem de um homem treinando com cordas, ao fundo há um parapeito, o parapeito é feito de cabos de aço e é possivel ver prédios ao fundo",
     image: ImagePost3,
     link: "https://blog.blackskullusa.com.br/",
+  },
+];
+
+export const members = [
+  {
+    image: Member1,
+    name: "Cedric McMillan",
+    link: "blog.blackskullusa.com.br",
+  },
+  {
+    image: Member2,
+    name: "Cedric McMillan",
+    link: "blog.blackskullusa.com.br",
+  },
+  {
+    image: Member3,
+    name: "Cedric McMillan",
+    link: "blog.blackskullusa.com.br",
   },
 ];
