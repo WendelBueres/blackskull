@@ -2,14 +2,14 @@ import { Box, Typography } from "@mui/material";
 import { ReactComponent as Rectangle } from "../assets/Rectangle.svg";
 import { ReactComponent as Rectangle2 } from "../assets/Rectangle 2.svg";
 
-export default function CardGoal({ image, goal }) {
+export default function CardGoal({ image, goal, length, index }) {
   return (
     <Box
       sx={{
         width: "277px",
         height: "340px",
-        ml: "10px",
-        mr: "10px",
+        ml: index === 0 ? "0px" : "10px",
+        mr: index === length - 1 ? "0px" : "10px",
         img: { transition: "1s", WebkitFilter: "grayscale(100%)" },
         ":hover img": {
           transition: "1s",
