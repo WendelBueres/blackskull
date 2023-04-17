@@ -7,6 +7,7 @@ import NavBar from "../components/NavBar";
 import { products } from "../source-data";
 import SectionBlog from "../components/SectionBlog";
 import SectionTroopSkull from "../components/SectionTroopSkull";
+import ListGoal from "../components/ListGoal";
 
 export default function Home() {
   return (
@@ -46,6 +47,7 @@ export default function Home() {
       </Typography>
       <CarouselProduct products={products} />
       <SectionBlog />
+      <ListGoal />
       <BackToTop />
     </>
   );
