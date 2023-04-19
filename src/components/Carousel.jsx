@@ -117,7 +117,7 @@ export default function Carousel() {
       </Box>
 
       {/* Selectors */}
-      <ListItem
+      <Box
         sx={{
           mt: "-40px",
           display: "flex",
@@ -132,6 +132,7 @@ export default function Carousel() {
             <IconButton
               key={i}
               onClick={() => changeIndex(i)}
+              sx={{ position: "relative", zIndex: 0 }}
               disableTouchRipple
               disableRipple
             >
@@ -152,7 +153,7 @@ export default function Carousel() {
             </IconButton>
           );
         })}
-      </ListItem>
+      </Box>
     </Box>
   );
 }
