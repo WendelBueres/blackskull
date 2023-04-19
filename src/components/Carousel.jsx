@@ -3,7 +3,7 @@ import { Box } from "@mui/system";
 import { useEffect, useState } from "react";
 import { ReactComponent as Active } from "../assets/Rectangle image select.svg";
 import { ReactComponent as Inactive } from "../assets/Rectangle image unselect.svg";
-import { Button, IconButton, ListItem, Typography } from "@mui/material";
+import { Button, IconButton, Typography } from "@mui/material";
 import { images } from "../source-data";
 
 export default function Carousel() {
