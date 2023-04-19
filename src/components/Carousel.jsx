@@ -22,7 +22,7 @@ export default function Carousel() {
     });
   }
 
-  useEffect(() => handleSelectors, []);
+  useEffect(() => handleSelectors(), []);
 
   function changeIndex(i) {
     setIndexImage(i);
